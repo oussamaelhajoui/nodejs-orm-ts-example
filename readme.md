@@ -27,8 +27,21 @@ You can also change the port by using the -p flag e.g.  ``cd dist && node index 
 
 for detailed information use the help flag 
 
+
 > This will start up a local server of your application on your machine
 
+
+You can now go to the browser and navigate to http://localhost:5000 if you supplied another port you can navigate to that port
+## Requests
+You can create the following requests  
+
+| request type | request path | description                                      | 
+|--------------|--------------|--------------------------------------------------| 
+| GET          | /            | Shows the readme page                            | 
+| GET          | /user        | Gets all the users                               | 
+| GET          | /user/:email | Gets user information of selected email          | 
+| POST         | /user        | Creates a new user: {name: string, email:string} | 
+| PUT          | /user/email  | updates user {name: string, email: string}       | 
 
 
 ---

@@ -4,7 +4,6 @@ import user from './../models/user';
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-    console.log(`user hit`);
     const resObj ={
         message: "working",
         users: []
