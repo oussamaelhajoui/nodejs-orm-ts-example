@@ -1,4 +1,4 @@
-# Typesript demo
+# Typesript ORM  demo
 > usage of demo:  
 make sure you have npm and node and mysql installed and running first.  
 If you dont have a root user with no password for mysql look at step 2.  
