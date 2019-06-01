@@ -41,7 +41,7 @@ You can create the following requests
 | GET          | /user        | Gets all the users                               | 
 | GET          | /user/:email | Gets user information of selected email          | 
 | POST         | /user        | Creates a new user: {name: string, email:string} | 
-| PUT          | /user/email  | updates user {name: string, email: string}       | 
+| PUT          | /user/:email | updates user {name: string, email: string}       | 
 
 
 ---
