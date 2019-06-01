@@ -43,6 +43,8 @@ You can create the following requests
 | POST         | /user        | Creates a new user: {name: string, email:string} | 
 | PUT          | /user/:email | updates user {name: string, email: string}       | 
 
+POST and PUT request data should be parsed in the body as json with the header: "Content-Type: application/json"
+
 
 ---
 "# nodejs-orm-ts-example" 
