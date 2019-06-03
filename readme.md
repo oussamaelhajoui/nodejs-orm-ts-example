@@ -7,7 +7,7 @@ Also create the database *_myExampleDb_* or the app will crash or restart the ap
 
 This needs to be done the first time only
 ```bash
-npm instal -g typescript      
+npm install -g typescript      
 npm install
 npm install dev
 ```
